@@ -1,0 +1,50 @@
+    1  pwd
+    2  cd SDC_02-23-2019/repository/data/original_data/gapminder_data/gapminder_by_country/
+    3  bash ../../../../scripts/loop_cut_low.sh
+    4  cat ../../../../scripts/loop_cut_arg.sh
+    5  bash ../../../../scripts/loop_cut_arg.sh 3
+    6  bash ../../../../scripts/loop_cut_arg.sh 2
+    7  bash ../../../../scripts/loop_cut_arg.sh 4
+    8  bash ../../../../scripts/loop_cut_arg.sh 5
+    9  bash ../../../../scripts/loop_cut_arg.sh 1
+   10  pwd
+   11  nano ../../../../scripts/loop_cut_arg.sh 1
+   12  bash ../../../../scripts/loop_cut_arg.sh 1
+   13  bash ../../../../scripts/loop_cut_arg.sh 4
+   14  bash ../../../../scripts/loop_cut_arg.sh 2,3,4,5
+   15  bash ../../../../scripts/loop_cut_arg.sh 2 3 4 5
+   16  nano ../../../../scripts/loop_cut_arg.sh
+   17  bash ../../../../scripts/loop_cut_arg.sh 3 4 5 6
+   18  bash ../../../../scripts/loop_cut_arg.sh 3 4 5 5
+   19  nano ../../../../scripts/loop_cut_arg.sh
+   20  bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5
+   21  bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+   22  nano ../../../../scripts/loop_cut_arg.sh
+   23* bash ../
+   24  bash -x ../../../../scripts/loop_cut_arg.sh
+   25  nano ../../../../scripts/loop_cut_arg.sh
+   26  echo --help
+   27  echo --help
+   28  echo -help
+   29* nano
+   30  nano ../../../../loop.cut.arg.sh
+   31  nano ../../../../loop_cut_arg.sh
+   32  nano ../../../../scripts/loop_cut_arg.sh
+   33  cat ../../../../scripts/loop_conditional1.sh
+   34  bash ../../../../scripts/loop_conditional1.sh 1 high
+   35  bash ../../../../scripts/loop_conditional1.sh 5 high
+   36  bash ../../../../scripts/loop_conditional1.sh 5 low
+   37  nano ../../../../scripts/loop_conditional1.sh
+   38  cat ../../../../scripts/loop_files_args.sh
+   39  bash ../../../../scripts/loop_files_args.sh A*.txt
+   40  bash ../../../../scripts/loop_files_args.sh B*.txt
+   41  bash ../../../../scripts/loop_files_args.sh [IJK]*.txt
+   42  cat ../../../../scripts/loop_conditional1_commented.sh
+   43  cp ../../../../scripts/loop_conditional1_commented.sh ../../../../scripts/loop_shell_exercise.sh
+   44  nano ../../../../scripts/loop_shell_exercise.sh 
+   45  bash ../../../../scripts/loop_shell_exercise.sh  
+   46  bash ../../../../scripts/loop_shell_exercise.sh   ls Z*.txt >Zfiles.out
+   47  ls Z*.txt >Zfiles.out
+   48  cat Zfiles.out 
+   49  history
+   50  history >history.out
